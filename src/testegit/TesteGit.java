@@ -2,7 +2,7 @@ package testegit;
 
 /**
  *
- * @author gin
+ * @author Maximillian de melo
  */
 public class TesteGit {
 //Hello There
