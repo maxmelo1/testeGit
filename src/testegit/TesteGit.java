@@ -6,6 +6,11 @@ package testegit;
  */
 public class TesteGit {
 //Hello There
+    
+    public int soma(int x, int y){
+        return x+1;
+    }
+    
     /**
      * @param args the command line arguments
      */
