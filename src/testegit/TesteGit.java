@@ -7,8 +7,31 @@ package testegit;
 public class TesteGit {
 //Hello There
     
-    public int soma(int x, int y){
-        return x+1;
+        public int mdc(int x, int y) {
+        int n = 2, maior = 0, resultado = 1;
+
+        if (x > y) {
+            maior = x;
+        } else if (x < y) {
+            maior = y;
+        } else {
+            maior = x;
+        }
+        while (n <= maior) {
+
+            if ((x % n == 0) && (y % n == 0)) {
+
+                x = x / n;
+                y = y / n;
+
+                resultado *= n;
+
+            }
+            if (!((x % n == 0) && (y % n == 0))) {
+                n++;
+            }
+        }
+        return resultado;
     }
     
     /**
